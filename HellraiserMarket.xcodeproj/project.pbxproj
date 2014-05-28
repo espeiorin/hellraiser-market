@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD25A282E0E476D94A5BD55 /* libPods-HellraiserMarket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA4957DA0AB468195DF4B39 /* libPods-HellraiserMarket.a */; };
+		75344714C23A4A2D8BE2D7AE /* libPods-HellraiserMarketTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9697ADE572A4443FBA6C2E51 /* libPods-HellraiserMarketTests.a */; };
 		7909AFCB193518F00048CEDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7909AFCA193518F00048CEDA /* Foundation.framework */; };
 		7909AFCD193518F00048CEDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7909AFCC193518F00048CEDA /* CoreGraphics.framework */; };
 		7909AFCF193518F00048CEDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7909AFCE193518F00048CEDA /* UIKit.framework */; };
@@ -22,6 +24,24 @@
 		7909AFEC193518F00048CEDA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7909AFD0193518F00048CEDA /* CoreData.framework */; };
 		7909AFF4193518F00048CEDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7909AFF2193518F00048CEDA /* InfoPlist.strings */; };
 		7909AFF6193518F00048CEDA /* HellraiserMarketTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909AFF5193518F00048CEDA /* HellraiserMarketTests.m */; };
+		7909B004193519400048CEDA /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B001193519400048CEDA /* CoreDataHelper.m */; };
+		7909B005193519400048CEDA /* CoreDataTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B003193519400048CEDA /* CoreDataTVC.m */; };
+		7909B00A1935198F0048CEDA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B0091935198F0048CEDA /* Reachability.m */; };
+		7909B00E19351A6B0048CEDA /* Main-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7909B00D19351A6B0048CEDA /* Main-iPhone.storyboard */; };
+		7909B01019351A7B0048CEDA /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7909B00F19351A7B0048CEDA /* Main-iPad.storyboard */; };
+		7909B01519351B730048CEDA /* iPadMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B01419351B730048CEDA /* iPadMainViewController.m */; };
+		7909B01E193523800048CEDA /* ProductsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B01D193523800048CEDA /* ProductsViewController.m */; };
+		7909B024193534150048CEDA /* BrandsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B023193534150048CEDA /* BrandsTableViewController.m */; };
+		7909B02719353F150048CEDA /* MarketService.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B02619353F150048CEDA /* MarketService.m */; };
+		7909B03619354FB90048CEDA /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B03519354FB90048CEDA /* Product.m */; };
+		7909B03919354FBA0048CEDA /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B03819354FBA0048CEDA /* Brand.m */; };
+		7909B03F19356B2E0048CEDA /* UIViewController+HRViewControllerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B03E19356B2E0048CEDA /* UIViewController+HRViewControllerCategory.m */; };
+		7909B04219356E280048CEDA /* UIImage+HRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B04119356E280048CEDA /* UIImage+HRImage.m */; };
+		7909B045193576E00048CEDA /* CoreDataCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B044193576E00048CEDA /* CoreDataCVC.m */; };
+		7909B04819357BAC0048CEDA /* ProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B04719357BAC0048CEDA /* ProductCell.m */; };
+		7909B04B193582A50048CEDA /* ProductsHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B04A193582A50048CEDA /* ProductsHeaderCell.m */; };
+		7909B04E19358AD80048CEDA /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B04D19358AD80048CEDA /* ProductDetailViewController.m */; };
+		7909B05119359AE50048CEDA /* iPhoneMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7909B05019359AE50048CEDA /* iPhoneMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B91002F9CFC44CD8051D3A1 /* Pods-HellraiserMarket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellraiserMarket.xcconfig"; path = "Pods/Pods-HellraiserMarket.xcconfig"; sourceTree = "<group>"; };
+		6CA4957DA0AB468195DF4B39 /* libPods-HellraiserMarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HellraiserMarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7909AFC7193518F00048CEDA /* HellraiserMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellraiserMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7909AFCA193518F00048CEDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7909AFCC193518F00048CEDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +75,42 @@
 		7909AFF1193518F00048CEDA /* HellraiserMarketTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HellraiserMarketTests-Info.plist"; sourceTree = "<group>"; };
 		7909AFF3193518F00048CEDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7909AFF5193518F00048CEDA /* HellraiserMarketTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HellraiserMarketTests.m; sourceTree = "<group>"; };
+		7909B000193519400048CEDA /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		7909B001193519400048CEDA /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		7909B002193519400048CEDA /* CoreDataTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTVC.h; sourceTree = "<group>"; };
+		7909B003193519400048CEDA /* CoreDataTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTVC.m; sourceTree = "<group>"; };
+		7909B0081935198F0048CEDA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7909B0091935198F0048CEDA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7909B00D19351A6B0048CEDA /* Main-iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPhone.storyboard"; sourceTree = "<group>"; };
+		7909B00F19351A7B0048CEDA /* Main-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPad.storyboard"; sourceTree = "<group>"; };
+		7909B01319351B730048CEDA /* iPadMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadMainViewController.h; sourceTree = "<group>"; };
+		7909B01419351B730048CEDA /* iPadMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadMainViewController.m; sourceTree = "<group>"; };
+		7909B01C193523800048CEDA /* ProductsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsViewController.h; sourceTree = "<group>"; };
+		7909B01D193523800048CEDA /* ProductsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsViewController.m; sourceTree = "<group>"; };
+		7909B022193534150048CEDA /* BrandsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandsTableViewController.h; sourceTree = "<group>"; };
+		7909B023193534150048CEDA /* BrandsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandsTableViewController.m; sourceTree = "<group>"; };
+		7909B02519353F150048CEDA /* MarketService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketService.h; sourceTree = "<group>"; };
+		7909B02619353F150048CEDA /* MarketService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketService.m; sourceTree = "<group>"; };
+		7909B03419354FB90048CEDA /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		7909B03519354FB90048CEDA /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		7909B03719354FBA0048CEDA /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Brand.h; sourceTree = "<group>"; };
+		7909B03819354FBA0048CEDA /* Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brand.m; sourceTree = "<group>"; };
+		7909B03D19356B2E0048CEDA /* UIViewController+HRViewControllerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HRViewControllerCategory.h"; sourceTree = "<group>"; };
+		7909B03E19356B2E0048CEDA /* UIViewController+HRViewControllerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HRViewControllerCategory.m"; sourceTree = "<group>"; };
+		7909B04019356E280048CEDA /* UIImage+HRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HRImage.h"; sourceTree = "<group>"; };
+		7909B04119356E280048CEDA /* UIImage+HRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HRImage.m"; sourceTree = "<group>"; };
+		7909B043193576E00048CEDA /* CoreDataCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataCVC.h; sourceTree = "<group>"; };
+		7909B044193576E00048CEDA /* CoreDataCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataCVC.m; sourceTree = "<group>"; };
+		7909B04619357BAC0048CEDA /* ProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductCell.h; sourceTree = "<group>"; };
+		7909B04719357BAC0048CEDA /* ProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductCell.m; sourceTree = "<group>"; };
+		7909B049193582A50048CEDA /* ProductsHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsHeaderCell.h; sourceTree = "<group>"; };
+		7909B04A193582A50048CEDA /* ProductsHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsHeaderCell.m; sourceTree = "<group>"; };
+		7909B04C19358AD80048CEDA /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		7909B04D19358AD80048CEDA /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		7909B04F19359AE50048CEDA /* iPhoneMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneMainViewController.h; sourceTree = "<group>"; };
+		7909B05019359AE50048CEDA /* iPhoneMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPhoneMainViewController.m; sourceTree = "<group>"; };
+		9697ADE572A4443FBA6C2E51 /* libPods-HellraiserMarketTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HellraiserMarketTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1B2B88821943F6B8766C15 /* Pods-HellraiserMarketTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellraiserMarketTests.xcconfig"; path = "Pods/Pods-HellraiserMarketTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +122,7 @@
 				7909AFD1193518F00048CEDA /* CoreData.framework in Frameworks */,
 				7909AFCF193518F00048CEDA /* UIKit.framework in Frameworks */,
 				7909AFCB193518F00048CEDA /* Foundation.framework in Frameworks */,
+				1BD25A282E0E476D94A5BD55 /* libPods-HellraiserMarket.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +134,7 @@
 				7909AFEC193518F00048CEDA /* CoreData.framework in Frameworks */,
 				7909AFEB193518F00048CEDA /* UIKit.framework in Frameworks */,
 				7909AFEA193518F00048CEDA /* Foundation.framework in Frameworks */,
+				75344714C23A4A2D8BE2D7AE /* libPods-HellraiserMarketTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +148,8 @@
 				7909AFEF193518F00048CEDA /* HellraiserMarketTests */,
 				7909AFC9193518F00048CEDA /* Frameworks */,
 				7909AFC8193518F00048CEDA /* Products */,
+				6B91002F9CFC44CD8051D3A1 /* Pods-HellraiserMarket.xcconfig */,
+				BC1B2B88821943F6B8766C15 /* Pods-HellraiserMarketTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +170,8 @@
 				7909AFCE193518F00048CEDA /* UIKit.framework */,
 				7909AFD0193518F00048CEDA /* CoreData.framework */,
 				7909AFE8193518F00048CEDA /* XCTest.framework */,
+				6CA4957DA0AB468195DF4B39 /* libPods-HellraiserMarket.a */,
+				9697ADE572A4443FBA6C2E51 /* libPods-HellraiserMarketTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,11 +179,17 @@
 		7909AFD2193518F00048CEDA /* HellraiserMarket */ = {
 			isa = PBXGroup;
 			children = (
+				7909B00C193519F40048CEDA /* Models */,
+				7909B00B193519B90048CEDA /* Services */,
+				7909B007193519810048CEDA /* Helpers */,
+				7909B006193519440048CEDA /* ViewControllers */,
+				7909AFFF193519350048CEDA /* CoreData */,
 				7909AFDB193518F00048CEDA /* AppDelegate.h */,
 				7909AFDC193518F00048CEDA /* AppDelegate.m */,
 				7909AFE1193518F00048CEDA /* Images.xcassets */,
-				7909AFDE193518F00048CEDA /* HellraiserMarket.xcdatamodeld */,
 				7909AFD3193518F00048CEDA /* Supporting Files */,
+				7909B00D19351A6B0048CEDA /* Main-iPhone.storyboard */,
+				7909B00F19351A7B0048CEDA /* Main-iPad.storyboard */,
 			);
 			path = HellraiserMarket;
 			sourceTree = "<group>";
@@ -153,6 +223,90 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7909AFFF193519350048CEDA /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7909B000193519400048CEDA /* CoreDataHelper.h */,
+				7909B001193519400048CEDA /* CoreDataHelper.m */,
+				7909B002193519400048CEDA /* CoreDataTVC.h */,
+				7909B003193519400048CEDA /* CoreDataTVC.m */,
+				7909B043193576E00048CEDA /* CoreDataCVC.h */,
+				7909B044193576E00048CEDA /* CoreDataCVC.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		7909B006193519440048CEDA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7909B01219351A890048CEDA /* iPhone */,
+				7909B01119351A830048CEDA /* iPad */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7909B007193519810048CEDA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7909B0081935198F0048CEDA /* Reachability.h */,
+				7909B0091935198F0048CEDA /* Reachability.m */,
+				7909B03D19356B2E0048CEDA /* UIViewController+HRViewControllerCategory.h */,
+				7909B03E19356B2E0048CEDA /* UIViewController+HRViewControllerCategory.m */,
+				7909B04019356E280048CEDA /* UIImage+HRImage.h */,
+				7909B04119356E280048CEDA /* UIImage+HRImage.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		7909B00B193519B90048CEDA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7909B02519353F150048CEDA /* MarketService.h */,
+				7909B02619353F150048CEDA /* MarketService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		7909B00C193519F40048CEDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7909AFDE193518F00048CEDA /* HellraiserMarket.xcdatamodeld */,
+				7909B03419354FB90048CEDA /* Product.h */,
+				7909B03519354FB90048CEDA /* Product.m */,
+				7909B03719354FBA0048CEDA /* Brand.h */,
+				7909B03819354FBA0048CEDA /* Brand.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7909B01119351A830048CEDA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				7909B01319351B730048CEDA /* iPadMainViewController.h */,
+				7909B01419351B730048CEDA /* iPadMainViewController.m */,
+				7909B01C193523800048CEDA /* ProductsViewController.h */,
+				7909B01D193523800048CEDA /* ProductsViewController.m */,
+				7909B022193534150048CEDA /* BrandsTableViewController.h */,
+				7909B023193534150048CEDA /* BrandsTableViewController.m */,
+				7909B04619357BAC0048CEDA /* ProductCell.h */,
+				7909B04719357BAC0048CEDA /* ProductCell.m */,
+				7909B049193582A50048CEDA /* ProductsHeaderCell.h */,
+				7909B04A193582A50048CEDA /* ProductsHeaderCell.m */,
+				7909B04C19358AD80048CEDA /* ProductDetailViewController.h */,
+				7909B04D19358AD80048CEDA /* ProductDetailViewController.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		7909B01219351A890048CEDA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				7909B04F19359AE50048CEDA /* iPhoneMainViewController.h */,
+				7909B05019359AE50048CEDA /* iPhoneMainViewController.m */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7909AFF9193518F00048CEDA /* Build configuration list for PBXNativeTarget "HellraiserMarket" */;
 			buildPhases = (
+				53B76DBAD0F54A5A83C1E8F4 /* Check Pods Manifest.lock */,
 				7909AFC3193518F00048CEDA /* Sources */,
 				7909AFC4193518F00048CEDA /* Frameworks */,
 				7909AFC5193518F00048CEDA /* Resources */,
+				12214516DF354352A88F83EE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7909AFFC193518F00048CEDA /* Build configuration list for PBXNativeTarget "HellraiserMarketTests" */;
 			buildPhases = (
+				15708D5192C148F38D2F3BF1 /* Check Pods Manifest.lock */,
 				7909AFE3193518F00048CEDA /* Sources */,
 				7909AFE4193518F00048CEDA /* Frameworks */,
 				7909AFE5193518F00048CEDA /* Resources */,
+				DADEC12A319C49E2A7494BD3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,7 +387,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7909AFD7193518F00048CEDA /* InfoPlist.strings in Resources */,
+				7909B00E19351A6B0048CEDA /* Main-iPhone.storyboard in Resources */,
 				7909AFE2193518F00048CEDA /* Images.xcassets in Resources */,
+				7909B01019351A7B0048CEDA /* Main-iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,14 +403,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12214516DF354352A88F83EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-HellraiserMarket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15708D5192C148F38D2F3BF1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53B76DBAD0F54A5A83C1E8F4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DADEC12A319C49E2A7494BD3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-HellraiserMarketTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7909AFC3193518F00048CEDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7909AFE0193518F00048CEDA /* HellraiserMarket.xcdatamodeld in Sources */,
+				7909B04219356E280048CEDA /* UIImage+HRImage.m in Sources */,
+				7909B03F19356B2E0048CEDA /* UIViewController+HRViewControllerCategory.m in Sources */,
+				7909B03619354FB90048CEDA /* Product.m in Sources */,
+				7909B005193519400048CEDA /* CoreDataTVC.m in Sources */,
+				7909B04E19358AD80048CEDA /* ProductDetailViewController.m in Sources */,
 				7909AFDD193518F00048CEDA /* AppDelegate.m in Sources */,
+				7909B004193519400048CEDA /* CoreDataHelper.m in Sources */,
+				7909B045193576E00048CEDA /* CoreDataCVC.m in Sources */,
+				7909B01519351B730048CEDA /* iPadMainViewController.m in Sources */,
+				7909B00A1935198F0048CEDA /* Reachability.m in Sources */,
+				7909B04B193582A50048CEDA /* ProductsHeaderCell.m in Sources */,
 				7909AFD9193518F00048CEDA /* main.m in Sources */,
+				7909B024193534150048CEDA /* BrandsTableViewController.m in Sources */,
+				7909B03919354FBA0048CEDA /* Brand.m in Sources */,
+				7909B02719353F150048CEDA /* MarketService.m in Sources */,
+				7909B05119359AE50048CEDA /* iPhoneMainViewController.m in Sources */,
+				7909B04819357BAC0048CEDA /* ProductCell.m in Sources */,
+				7909B01E193523800048CEDA /* ProductsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +605,7 @@
 		};
 		7909AFFA193518F00048CEDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B91002F9CFC44CD8051D3A1 /* Pods-HellraiserMarket.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -379,6 +619,7 @@
 		};
 		7909AFFB193518F00048CEDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B91002F9CFC44CD8051D3A1 /* Pods-HellraiserMarket.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -392,6 +633,7 @@
 		};
 		7909AFFD193518F00048CEDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1B2B88821943F6B8766C15 /* Pods-HellraiserMarketTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HellraiserMarket.app/HellraiserMarket";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -414,6 +656,7 @@
 		};
 		7909AFFE193518F00048CEDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1B2B88821943F6B8766C15 /* Pods-HellraiserMarketTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HellraiserMarket.app/HellraiserMarket";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -449,6 +692,7 @@
 				7909AFFB193518F00048CEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7909AFFC193518F00048CEDA /* Build configuration list for PBXNativeTarget "HellraiserMarketTests" */ = {
 			isa = XCConfigurationList;
@@ -457,6 +701,7 @@
 				7909AFFE193518F00048CEDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
