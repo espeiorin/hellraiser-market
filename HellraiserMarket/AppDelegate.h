@@ -7,16 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreDataHelper.h"
+#import "Reachability.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+@property (nonatomic, strong, readonly) CoreDataHelper *coreDataHelper;
 
-- (void)saveContext;
+- (CoreDataHelper*)cdh;
 - (NSURL *)applicationDocumentsDirectory;
-
+- (BOOL) hasInternetConnection;
+- (NSString *) restAuthToken;
+- (void) showAlert:(NSString *) title withMessage:(NSString *)message;
+- (void) showLoading:(UIView *) view;
+- (void) hideLoading:(UIView *) view;
 @end
